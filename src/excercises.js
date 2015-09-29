@@ -10,13 +10,13 @@ var quiz = {};
 
 // triple()
 // Edit the below function to return 3x the number provided,
-// OR return a string "not an number" if the argument provided
+// OR return a string "not a number" if the argument provided
 // is not a number!
   quiz.triple = function(num) {
     if(typeof(num) == 'number') {
       return num * 3;
     } else {
-      return "not an number"
+      return "not a number"
     }
   };
 
